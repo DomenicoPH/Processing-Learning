@@ -10,7 +10,8 @@ void setup(){
 
 void draw(){
   background(0);
-  //tint(255,mouseY,mouseX);
+  tint(255,mouseY,mouseX);
+  tint(255,255,255);
   
   //image(img, 0, 0, img.width, img.height);
   //image(img, 0, 0, mouseX, mouseY);
