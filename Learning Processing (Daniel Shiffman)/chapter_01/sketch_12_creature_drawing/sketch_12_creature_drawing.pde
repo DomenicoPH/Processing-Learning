@@ -1,5 +1,6 @@
 void setup() {
 
+  // Zog the Alien
   size(200, 200);
   ellipseMode(CENTER);
   rectMode(CENTER);
@@ -18,6 +19,8 @@ void setup() {
   stroke(0);
   line(90, 150, 80, 160);
   line(110, 150, 120, 160);
+  
+  println("Zog: Take me to your leader!");
 }
 
 void draw() {
